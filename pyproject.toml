@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "spartkify-data-modelling"
+version = "0.1.0"
+description = ""
+authors = ["HarrisonHenri <harrisonhenrisn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.0"
+jupyter-black = "^0.3.4"
+jupyter = "^1.0.0"
+cassandra-driver = "^3.28.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
